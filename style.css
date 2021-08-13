@@ -1,0 +1,145 @@
+/* STYLE SECTIONING TAGS */
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: khaki;
+}
+
+/* STYLE TEXT */
+h1 {
+  text-align: center;
+  font-family: Indie Flower, cursive;
+  font-size: 50px;
+  color: mediumturquoise;
+}
+
+h2 {
+  text-align: center;
+  font-family: Caveat, cursive;
+  color: teal;
+  margin-top: 2em;
+}
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  margin-top: 2em;
+  justify-content: center;
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin: 5px;
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  height: 10em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  
+}
+
+/* STYLE BUTTON */
+button { 
+  margin-top: 5px;
+  background-color: lightgreen;
+  color:black;
+  padding: 400px, 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24px;
+  font-family: Dancing Script;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+}
+
+#results {
+  text-align: center;
+  font-family: Indie Flower, cursive;
+  color: darkturquoise;
+}
+
+button:hover {background-color: #4fe34f}
+
+button:active {
+  background-color:#4fe34f;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+.flexContainer1 {
+  display: flex;
+  height: 40px;
+  width: 160px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flexContainer2 {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexContainer3 {
+  display: flex;
+  height: 40px;
+  width: 160px;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.flexContainer4 {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexContainer1 > div {
+  background-color: red;
+  color: red;
+  width: 40px;
+  margin: 0px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 10px;
+}
+.flexContainer2 > div {
+  background-color:khaki;
+  color: khaki;
+  width: 40px;
+  margin: 0px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 10px;
+}
+.flexContainer3 > div {
+  background-color: red;
+  color: red;
+  width: 40px;
+  margin: 0px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 10px;
+}
+.flexContainer4 > div {
+  background-color: red;
+  color: red;
+  width: 40px;
+  margin: 0px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 10px;
+}
